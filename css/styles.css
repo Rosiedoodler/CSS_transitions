@@ -3,48 +3,149 @@
 
 /* STUDENTS, PUT YOUR STYLES HERE */
 .item_1_box {
-background-color:#090;
+
+	background-color:#090;
+
+	transition: background-color 1s ease-in 0.5s;
+
+}
+
+.item_1_box:hover{
+
+	background-color:#09f;
+
 }
 
 .item_2_box {
-width: 50%;
+
+	width: 50%;
+
+	transition: width 3s ease-in-out 0.5s;
+
+}
+
+.item_2_box:hover{
+
+	width: 100%;
+
 }
 
 .item_3_box {
-height: 1.2em;
+
+	height: 1.2em;
+
+	transition: height 0.5s ease-out 0.5s;
+
+}
+
+.item_3_box:hover{
+
+	height: 5em;
+
 }
 
 .item_4_box {
+
+	background-color:#090;
+
+	transform: scale(1);
+
+	transition: transform 0.5s ease 0.5s;
+
+}
+
+.item_4_box:hover {
+
+	transform: scale(1.5);
+
 }
 
 .item_5_box {
-height: 1.2em;
+
+	opacity: 100%;
+
+	height: 1.2em;
+
+	transition: opacity 0.5s ease-in 0.5s;
+
+}
+
+.item_5_box:hover{
+
+	opacity: 40%;
+
 }
 
 .item_6_box {
+
 	color:#ff9;
 	font-size: 1em;
+
+	transition: font-size 0.5s ease-in-out 0.5s, color 0.5s ease-in-out 0.5s;
+
+}
+
+.item_6_box:hover{
+
+	color: #fff;
+	font-size: 2em;
+
 }
 
 .item_7_box {
+
 	width: 80%;
 	padding-left: 4%;
 	text-align:left;
+
+	transition: padding-left 0.5s ease-in 0.5s, width 0.5s ease-in 0.5s;
+
+}
+
+.item_7_box:hover{
+
+	padding-left: 80%;
+
+	width: 4%;
+
 }
 
 .item_8_box {
+
 	width:50%;
 	color:#ff9;
 	background-color: #090;
+
+	transition: width 0.5s ease-in 0.5s, color 0.5s ease-in 1s;
+
+}
+
+.item_8_box:hover{
+
+	width: 80%;
+	color: #cdf;
+
 }
 
 .item_9_box {
+
 	width: 150px;
 	height: 34px;
 	padding: 26px 0 0 0;
+
+	background-image: url(../img/dog.png);
+
+	background-position: 0 0;
+
+	transition: background-position 0.5s ease-in-out 0.5s;
+
 }
 
+.item_9_box:hover{
 
+	background-position: -150px 0;
+
+}
 
 /* DO NOT TOUCH STYLES BELOW HERE. Designing for mobile first */
 html {	background-color:#210;
